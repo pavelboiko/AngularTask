@@ -21,8 +21,8 @@ You will need to have the following installed to complete this task:
 3. In the *source* directory, please create an Angular app that does the following:
 	- Create a directive to modify a [semantic version number](http://semver.org/) (MAJOR.MINOR.REVISION)
 	- The directive should use ngModel for two-way data binding to a variable on the scope (a string, eg "1.2.3"
-	- The directive should start by displaying the semantic version as text (eg. 1.2.3)
-	- When clicked, the directive should display text fields to allow modifying the major, minor, and revision numbers individually
+	- The directive should start by displaying the semantic version as text (read-only mode: ![Read only](readonly.png))
+	- When clicked, the directive should display text fields to allow modifying the major, minor, and revision numbers individually (edit mode: ![Edit mode](edit.png))
 	- When the user clicks outside the control, it should revert to the read-only display
 4. Commit and Push your code to your new repository
 5. Send us a pull request, we will review your code and get back to you
